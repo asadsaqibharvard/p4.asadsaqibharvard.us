@@ -16,17 +16,17 @@ $("#postworkout").click(function(){
 	
 	if(pulluptitle.length > 0){
 		
-		post = post + " Pullups - " + pullupset + " sets of " + pulluprep + " reps";
+		post = post + " Pullups - Sets: " + pullupset + ", Reps: " + pulluprep + ".";
 	}
 	
 	if(situptitle.length > 0){
 		
-		post = post + " Situps - " + situpset + " sets of " + situprep + " reps";
+		post = post + " Situps - Sets: " + situpset + ", Reps: " + situprep + ".";
 	}
 	
 	if(legextensiontitle.length > 0){
 		
-		post = post + " Leg Extensions - " + legextensionset + " sets of " + legextensionrep + " reps";
+		post = post + " Leg Extensions - Sets: " + legextensionset + ", Reps: " + legextensionrep + ".";
 	}
 	
 	$("#content").val(post);
