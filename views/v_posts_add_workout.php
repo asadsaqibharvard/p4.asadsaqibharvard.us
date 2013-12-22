@@ -8,7 +8,7 @@
 			<form id="upperbodyform">
     			<h2>Upper Body Workouts</h2>
     			<!--pull ups-->
-    			<input type="checkbox" name="checkboxname" id="pullupcheckboxid" class="workoutcheckbox"/><span id='pulluplabelid'>Pull Ups</span>
+    			<label><input type="checkbox" name="checkboxname" id="pullupcheckboxid" class="workoutcheckbox"/><span id='pulluplabelid'>Pull Ups</span></label>
     			<input type="number" min="0" id="pullupsetsid" class="workoutsets" name="pullupsetsname" placeholder="# of Sets" disabled/>
     			<input type="number" min="0" id="pulluprepsid" class="workoutreps" name="pulluprepsname" placeholder="# of Reps" disabled/>
     		</form>
