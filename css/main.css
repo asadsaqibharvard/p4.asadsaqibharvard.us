@@ -1,0 +1,143 @@
+
+/*-------------------------------------------------------------------------------------------------
+Layout
+-------------------------------------------------------------------------------------------------*/
+
+#bodyparts{
+	width:450px;
+	float:left;
+}
+
+/* Left column */
+#controls {
+	width:200px;
+	float:right;
+}
+
+/* Right column */
+#workoutschedule {
+	clear:both;
+	width:400px;
+	text-align:center;
+}
+
+
+/*-------------------------------------------------------------------------------------------------
+Workout Schedule
+-------------------------------------------------------------------------------------------------*/
+#schedule {
+	width:375px;
+	height:350px;
+	position:relative;
+	top:33px;
+	left:16px;
+	background-color: #92A4B0;
+	overflow:hidden;
+	border: 3px solid white;
+}
+
+#workoutlabels {
+	text-align: left;
+	text-decoration: underline;
+	margin-left: 20px;
+	float: left;
+}
+
+#setstitle {
+	text-align: center;
+	text-decoration: underline;
+	float: left;
+	padding-left: 100px;
+}
+
+#repstitle {
+	text-align: right;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+
+.workoutdiv{
+	display: none;
+}
+
+.title{
+	text-align: left;
+	float: left;
+	width: 150px;
+	margin-left: 20px;
+}
+
+.set{
+	text-align: left;
+	width: 100px;
+	float: left;
+	margin-left: 18px;
+}
+
+.rep{
+	text-align: right;
+	width: 50px;
+	float: left;
+	margin-left: 5px;	
+}
+
+/*-------------------------------------------------------------------------------------------------
+Buttons
+-------------------------------------------------------------------------------------------------*/
+
+
+/*max character red font color*/
+.error {
+	color:red;
+}
+
+/*display properties for the body images*/
+.bodypart {
+	width: 425px;
+	border: 1px solid grey;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#upperbody {
+	height: 155px;
+	background-image: url('../images/upperbody.png');
+}
+
+#core {
+	height: 67px;
+	background-image: url('../images/core.png');
+}
+
+#lowerbody {
+	height: 157px;
+	background-image: url('../images/lowerbody.png');
+}
+
+
+/*hide workouts until selected on the image*/
+.workouts {
+	display: none;
+	float:right;
+	width: 350px;
+	margin-top:50px;
+}
+
+.workoutcheckbox{
+	
+}
+
+.workoutsets{
+	width: 75px;
+}
+
+.workoutreps{
+	width: 75px;
+}
+
+
+
+
+
+
+
