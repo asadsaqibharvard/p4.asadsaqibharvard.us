@@ -1,0 +1,105 @@
+html, body {
+	border: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+body {
+	background-color: #3a92c8;
+	background: -webkit-radial-gradient(circle,#94d2f8,#3a92c8);
+	background: -moz-radial-gradient(circle,#94d2f8,#3a92c8);
+	background: -ms-radial-gradient(circle,#94d2f8,#3a92c8);
+}
+
+a, a:visited{
+	text-decoration: none;
+}
+
+input {
+	width: 500px;
+	height: 40px;
+	font-size:25px;
+	line-height:40px;
+}
+
+textarea {
+	width: 700px;
+	height: 200px;
+}
+
+#menu {
+	background-position: 0 0;
+	background-color: #252525;
+	height: 40px;
+	margin-bottom: 40px;
+	text-align: right;
+	padding: 10px;
+}
+
+#menu a, #menu a:visited{
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#maincontent {
+	background-color: #fff;
+	width: 800px;
+	min-height: 400px;
+	margin:0px auto;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+
+.headertext{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.imagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+	clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.formlabel{
+	float: left;
+	width: 100px;
+}
+
+.forminput{
+	margin-left: 100px;
+}
+
+.formbutton{
+	margin-left: 200px;
+}
+
+.error{
+	color: red;
+}
+
+.homebutton
+{
+	width: 200px;
+	background-color: #3a92c8;
+	width: 500px;
+	height: 40px;
+	font-size:25px;
+	line-height:40px;
+	padding: 10px;
+	margin-right: 20px;
+	border-radius: 15px;
+}
