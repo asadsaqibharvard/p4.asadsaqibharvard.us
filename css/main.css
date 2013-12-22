@@ -93,7 +93,7 @@ Buttons
 
 /*display properties for the body images*/
 .bodypart {
-	width: 425px;
+	width: 375px;
 	border: 1px solid grey;
 	margin-bottom: 5px;
 	cursor: pointer;
@@ -129,12 +129,12 @@ Buttons
 }
 
 .workoutsets{
-	width: 120px;
+	width: 110px;
 	font-size: 20px;
 }
 
 .workoutreps{
-	width: 120px;
+	width: 110px;
 	font-size: 20px;
 }
 
