@@ -119,14 +119,12 @@ Buttons
 .workouts {
 	display: none;
 	float:right;
-	width: 350px;
+	width: 400px;
 	margin-top:150px;
 	background-color: green;
 }
 
-.workoutcheckbox{
-	
-}
+
 
 .workoutsets{
 	width: 110px;
@@ -139,7 +137,9 @@ Buttons
 }
 
 
-
+.workoutcheckbox {
+	float: right;
+}
 
 
 
