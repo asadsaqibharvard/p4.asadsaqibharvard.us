@@ -1,3 +1,38 @@
+$("#postworkout").click(function(){
+	
+	var pulluptitle = $("#pulluptitle").text();
+	var pullupset = $("#pullupset").text();
+	var pulluprep = $("#pulluprep").text();
+	
+	var situptitle = $("#situptitle").text();
+	var situpset = $("#situpset").text();
+	var situprep = $("#situprep").text();
+	
+	var legextensiontitle = $("#legextensiontitle").text();
+	var legextensionset = $("#legextensionset").text();
+	var legextensionrep = $("#legextensionrep").text();
+	
+	var post = "My Workout for Today:";
+	
+	if(pulluptitle.length > 0){
+		
+		post = post + " Pullups - " + pullupset + " sets of " + pulluprep + " reps";
+	}
+	
+	if(situptitle.length > 0){
+		
+		post = post + " Situps - " + situpset + " sets of " + situprep + " reps";
+	}
+	
+	if(legextensiontitle.length > 0){
+		
+		post = post + " Leg Extensions - " + legextensionset + " sets of " + legextensionrep + " reps";
+	}
+	
+	$("#content").val(post);
+	$("#frm").submit();	
+});
+
 /*-------------------------------------------------------------------------------------------------
 Name
 -------------------------------------------------------------------------------------------------*/
