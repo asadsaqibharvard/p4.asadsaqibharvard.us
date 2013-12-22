@@ -25,6 +25,17 @@ class posts_controller extends base_controller {
 
     }
 
+    public function addworkout() {
+
+        # Setup view
+        $this->template->content = View::instance('v_posts_add_workout');
+        $this->template->title   = "New Workout Post";
+
+        # Render template
+        echo $this->template;
+
+    }
+
     public function p_add() {
 
         # Associate this post with this user
@@ -40,7 +51,7 @@ class posts_controller extends base_controller {
 
         
         # Send them back
-	    Router::redirect("/posts/add");
+	    Router::redirect("/posts/index");
     }
 
     public function index() {
