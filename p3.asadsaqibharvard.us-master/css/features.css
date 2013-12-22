@@ -1,0 +1,40 @@
+/*max character red font color*/
+.error {
+	color:red;
+}
+
+/*display properties for the body images*/
+.bodypart {
+	width: 425px;
+	border: 1px solid grey;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#upperbody {
+	height: 155px;
+	background-image: url('../images/upperbody.png');
+}
+
+#core {
+	height: 67px;
+	background-image: url('../images/core.png');
+}
+
+#lowerbody {
+	height: 157px;
+	background-image: url('../images/lowerbody.png');
+}
+
+
+/*hide workouts until selected on the image*/
+.workouts {
+	display: none;
+	position: absolute;
+}
+
+
+
+
+
+

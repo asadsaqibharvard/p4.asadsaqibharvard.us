@@ -1,0 +1,210 @@
+body {
+	background-image: url('../images/background.jpg');
+}
+
+* {
+	font-family: Arial;
+	color: white;
+}
+
+h1 {	
+	text-align:center;
+	font-size:30px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+h2 {
+	font-size:15px;
+	margin-top:30px;
+	margin-bottom:5px;
+}
+
+input{
+	font-size:16px;
+	color: black;
+}
+
+
+a {
+	font-size: 10px;
+	color: #A4D7ED;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Layout
+-------------------------------------------------------------------------------------------------*/
+#wrapper {
+	width:960px;
+	margin:0px auto;
+}
+
+/* Left column */
+#controls {
+	width:500px;
+	margin-right:50px;
+	float:left;
+}
+
+/* Right column */
+#workoutschedule {
+	width:400px;
+	float:left;
+	text-align:center;
+}
+
+
+/*-------------------------------------------------------------------------------------------------
+Workout Schedule
+-------------------------------------------------------------------------------------------------*/
+#schedule {
+	width:375px;
+	height:350px;
+	position:relative;
+	top:33px;
+	left:16px;
+	background-color: #92A4B0;
+	z-index:-1; 
+	overflow:hidden;
+	border: 3px solid white;
+}
+
+#workoutlabels {
+	text-align: left;
+	text-decoration: underline;
+	margin-left: 20px;
+	float: left;
+}
+
+#setstitle {
+	text-align: center;
+	text-decoration: underline;
+	float: left;
+	padding-left: 100px;
+}
+
+#repstitle {
+	text-align: right;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+
+.workoutdiv{
+	display: none;
+}
+
+.title{
+	text-align: left;
+	float: left;
+	width: 150px;
+	margin-left: 20px;
+}
+
+.set{
+	text-align: left;
+	width: 100px;
+	float: left;
+	margin-left: 18px;
+}
+
+.rep{
+	text-align: right;
+	width: 50px;
+	float: left;
+	margin-left: 5px;	
+}
+
+/*-------------------------------------------------------------------------------------------------
+Buttons
+-------------------------------------------------------------------------------------------------*/
+input[type=button] {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #287ace;
+}
+
+input[type=button] {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	background-color:#4197ee;
+}
+
+input[type=button] {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*max character red font color*/
+.error {
+	color:red;
+}
+
+/*display properties for the body images*/
+.bodypart {
+	width: 425px;
+	border: 1px solid grey;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#upperbody {
+	height: 155px;
+	background-image: url('../images/upperbody.png');
+}
+
+#core {
+	height: 67px;
+	background-image: url('../images/core.png');
+}
+
+#lowerbody {
+	height: 157px;
+	background-image: url('../images/lowerbody.png');
+}
+
+
+/*hide workouts until selected on the image*/
+.workouts {
+	display: none;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
