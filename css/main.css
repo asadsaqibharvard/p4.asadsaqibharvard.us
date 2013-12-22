@@ -129,11 +129,13 @@ Buttons
 }
 
 .workoutsets{
-	width: 75px;
+	width: 120px;
+	font-size: 20px;
 }
 
 .workoutreps{
-	width: 75px;
+	width: 120px;
+	font-size: 20px;
 }
 
 
